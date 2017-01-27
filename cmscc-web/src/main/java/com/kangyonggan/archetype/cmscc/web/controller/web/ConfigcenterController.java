@@ -1,4 +1,4 @@
-package com.kangyonggan.archetype.cmscc.web.controller.dashboard;
+package com.kangyonggan.archetype.cmscc.web.controller.web;
 
 import com.alibaba.fastjson.JSONArray;
 import com.kangyonggan.archetype.cmscc.biz.core.MyPropertyPlaceholderConfigurer;
