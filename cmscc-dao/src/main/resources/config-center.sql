@@ -40,8 +40,8 @@ VALUES
   ('cmscc', 'local', 'redis.maxIdle', '100', 'redis最大等待数'),
   ('cmscc', 'local', 'redis.maxTotal', '1000', 'redis最大连接数'),
   ('cmscc', 'local', 'redis.minIdle', '50', 'redis最小等待数'),
-  ('cmscc', 'local', 'redis.password', '******', '邮件服务器用户名'),
-  ('cmscc', 'local', 'redis.port', '6379', 'redis密码'),
+  ('cmscc', 'local', 'redis.password', '******', 'redis密码'),
+  ('cmscc', 'local', 'redis.port', '6379', 'redis端口'),
   ('cmscc', 'local', 'redis.prefix', 'cmscc', 'redis的key的前缀'),
   ('cmscc', 'local', 'redis.testOnBorrow', 'true', 'redis测试支持'),
 
