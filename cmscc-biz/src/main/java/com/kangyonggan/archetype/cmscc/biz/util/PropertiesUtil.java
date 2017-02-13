@@ -2,7 +2,6 @@ package com.kangyonggan.archetype.cmscc.biz.util;
 
 import lombok.extern.log4j.Log4j2;
 
-import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -64,5 +63,14 @@ public class PropertiesUtil {
         props.put(name, value);
     }
 
+    /**
+     * 是否包含key
+     *
+     * @param key
+     * @return
+     */
+    public static boolean containsKey(String key) {
+        return props.containsKey(key);
+    }
 }
 
