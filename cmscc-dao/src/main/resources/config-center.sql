@@ -11,6 +11,12 @@ VALUES
 
   ('cmscc', 'local', 'file.root.path', '/Users/kyg/code2/cmscc/cmscc-web/src/main/webapp/WEB-INF/', '文件上传根路径'),
 
+  ('cmscc', 'local', 'dubbo.version', '1.0.0', '提供接口的版本'),
+  ('cmscc', 'local', 'dubbo.name', 'cmscc', 'dubbo名字'),
+  ('cmscc', 'local', 'dubbo.protocol.port', '-1', 'dubbo注册端口'),
+  ('cmscc', 'local', 'dubbo.registry.address', 'zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182', 'dubbo注册地址'),
+  ('cmscc', 'local', 'dubbo.timeout', '10000', 'dubbo超时时间'),
+
   ('cmscc', 'local', 'jdbc.driver', 'com.mysql.jdbc.Driver', 'jdbc驱动'),
   ('cmscc', 'local', 'jdbc.password', '123456', 'jdbc密码'),
   ('cmscc', 'local', 'jdbc.url', 'jdbc:mysql://127.0.0.1:3306/cmscc?useUnicode=true&characterEncoding=UTF-8', 'jdbc地址'),
